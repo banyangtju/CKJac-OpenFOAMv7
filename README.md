@@ -3,7 +3,7 @@
 
    The chemical model program, **CKJac**, provides the pre-computed and pre-saved fully analytic molar concentration-based and more spare Jacobian and chemical reaction sources, accelerating chemical reaction computation, which occupies 80% CPU time during CFD simulations. The speedup performance depends on chemical mechanisms, and more details can be found in our article.
 
-   When using the CKJac chemistry model, a library called **libchemkin.so** should be generated in constant/chemkin. The libchemkin.so is produced based on chemkin-type reaction mechanisms. You can give me the mechanism and I will provide the library for you. The advantages of CKJac can be found in Fig. 1 and Fig. 2. After installing the library libchemistryModel_LB_LB_pyJac_LB_CKJac.so, you can use it in constant/chemistryProperties. 
+   When using the CKJac chemistry model, a library called **libchemkin.so** should be generated in constant/chemkin. The libchemkin.so is produced based on chemkin-type reaction mechanisms. You can give me the mechanism and I will provide the library for you. The advantages of CKJac can be found in Fig. 1 and Fig. 2. After installing the library libchemistryModel_LB_LB_pyJac_LB_CKJac.so, you can use it in constant/chemistryProperties,
 
 ```
 chemistryType
@@ -14,7 +14,20 @@ chemistryType
 ```
 
 
-    The ODE solvers including seulex_KLU (https://www.sciencedirect.com/science/article/pii/S001021801630267X) for CKJac (https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978) and seulex_LAPACK (https://github.com/Aalto-CFD/DLBFoam) for pyJac (https://www.sciencedirect.com/science/article/pii/S0010465517300462) are uploaded. 
+in system/controlDict
+```
+libs
+(
+	"$FOAM_CASE/constant/chemkin/libchemkin.so"
+	"libchemistryModel_LB_LB_pyJac_LB_CKJac.so"
+	"libODE_seulex_LAPACK_seulex_KLU.so"
+	"$FOAM_CASE/constant/foam_mech/libc_pyjac.so"
+)
+```
+
+ The ODE solvers including seulex_KLU (https://www.sciencedirect.com/science/article/pii/S001021801630267X) for CKJac (https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978) and seulex_LAPACK (https://github.com/Aalto-CFD/DLBFoam) for pyJac (https://www.sciencedirect.com/science/article/pii/S0010465517300462) are uploaded. 
+
+
 
 
 :blush:Contributor1: Yangyang Ban, Tianjin University, banyang@tju.edu.cn; 
@@ -24,6 +37,8 @@ chemistryType
 
 
 :blush:Contributor3: Shenghui Zhong, Tianmushan Laboratory, https://github.com/ZSHtju. 
+
+
 
 
 <div align=center>
