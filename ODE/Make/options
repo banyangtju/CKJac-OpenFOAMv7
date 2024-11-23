@@ -1,0 +1,10 @@
+EXE_INC = \
+    -I/..../LAPACKE/include \
+	-I/..../include \
+    -DDEBUG=0 
+	
+	
+
+LIB_LIBS = \
+     -L/....  -llapacke \
+	 -L/.... -lklu
