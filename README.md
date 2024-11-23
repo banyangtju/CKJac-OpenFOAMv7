@@ -1,4 +1,4 @@
-# OpenFOAMv7-CKJac-LoadBalancedChemistryModel
+# CKJac
    The LoadBalancedChemistryModel is derived from DLBFoam (https://github.com/Aalto-CFD/DLBFoam), and integrates the recently developed **CKJac** (for more details in https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978) chemistry model for computational speedup.
 
    The chemical model program, **CKJac**, provides the pre-computed and pre-saved fully analytic molar concentration-based and more spare Jacobian and chemical reaction sources, accelerating chemical reaction computation, which occupies 80% CPU time during CFD simulations. The speedup performance depends on chemical mechanisms, and more details can be found in our article.
@@ -26,7 +26,6 @@ libs
 ```
 
  The ODE solvers including seulex_KLU (https://www.sciencedirect.com/science/article/pii/S001021801630267X) for CKJac (https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978) and seulex_LAPACK (https://github.com/Aalto-CFD/DLBFoam) for pyJac (https://www.sciencedirect.com/science/article/pii/S0010465517300462) are uploaded. 
-
 
 
 
