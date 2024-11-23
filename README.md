@@ -5,5 +5,10 @@ The chemical model program, CKJac, provides the pre-computed and pre-saved fully
 
 When using the CKJac chemistry model, a library called libchemkin.so should be generated in constant/chemkin. The libchemkin.so is produced based on chemkin-type reaction mechanisms. You can give me the mechanism and I will provide the library for you.
 
+Fig. 1 The sparsity of CKJac
+![image](https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2)
+
+
+Fig. 2 The computational CPU time comparison.
 ![image](https://github.com/user-attachments/assets/0d170cf7-4d10-4ded-9267-55c165c5cbcf)
 
