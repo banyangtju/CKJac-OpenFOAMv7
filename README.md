@@ -20,8 +20,8 @@ libs
 (
 	"$FOAM_CASE/constant/chemkin/libchemkin.so"
 	"libchemistryModel_LB_LB_pyJac_LB_CKJac.so"
-	"libODE_seulex_LAPACK_seulex_KLU.so"
-	"$FOAM_CASE/constant/foam_mech/libc_pyjac.so"
+//	"libODE_seulex_LAPACK_seulex_KLU.so"
+//	"$FOAM_CASE/constant/foam_mech/libc_pyjac.so"
 )
 ```
 
