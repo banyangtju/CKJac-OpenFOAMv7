@@ -32,7 +32,7 @@ libs
 :blush:Contributor1: Yangyang Ban, Tianjin University, banyang@tju.edu.cn; 
 
 
-:blush:Contributor2: Fan Zhang, associate professor, Tianjin University; 
+:blush:Contributor2: Fan Zhang, associate professor, Tianjin University, fanzhang_lund@tju.edu.cn; 
 
 
 :blush:Contributor3: Shenghui Zhong, Tianmushan Laboratory, https://github.com/ZSHtju. 
