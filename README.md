@@ -50,17 +50,15 @@ libs
 :blush:Contributor3: Shenghui Zhong, Tianmushan Laboratory, https://github.com/ZSHtju. 
 
 
-
-
-Fig. 1 The sparsity of CKJac.
-
+<p align='center'>Fig. 1 The sparsity of CKJac.</p>
 <div align=center>
+	
 ![image](https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2)
-<\div> 
 
-Fig. 2 The computational CPU time comparison.
 
+**Fig. 2 The computational CPU time comparison.**
 <div align=center>
+
 ![image](https://github.com/user-attachments/assets/0d170cf7-4d10-4ded-9267-55c165c5cbcf)
 
 
