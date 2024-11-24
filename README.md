@@ -52,7 +52,7 @@ libs
 
 
 <div align=center>
-<font size='15'>Fig. 1 The sparsity of CKJac.</font>
+<font size='30'>Fig. 1 The sparsity of CKJac.</font>
 
  
 ![image](https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2)
