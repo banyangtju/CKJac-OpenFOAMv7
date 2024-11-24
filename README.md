@@ -8,6 +8,7 @@
 ```
 cd tutorials/chemFoam/CH4Air_GRIMech3.0/constant/chemkin/ckinterp/
 make clean;make
+./ckinterp
 cp -r ./chem.bin ../
 ./JAC/
 ```
