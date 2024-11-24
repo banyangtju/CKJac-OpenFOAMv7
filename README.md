@@ -51,17 +51,16 @@ libs
 
 
 
-<div align=center>
-<font size='30'>Fig. 1 The sparsity of CKJac.</font>
 
- 
+Fig. 1 The sparsity of CKJac.
+
+<div align=center>
 ![image](https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2)
+<\div> 
 
-
-<div align=center>
 Fig. 2 The computational CPU time comparison.
 
-
+<div align=center>
 ![image](https://github.com/user-attachments/assets/0d170cf7-4d10-4ded-9267-55c165c5cbcf)
 
 
