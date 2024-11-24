@@ -37,7 +37,8 @@ libs
    1. The ODE solvers including seulex_KLU (https://www.sciencedirect.com/science/article/pii/S001021801630267X) for CKJac (https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978) and seulex_LAPACK (https://github.com/Aalto-CFD/DLBFoam) for pyJac (https://www.sciencedirect.com/science/article/pii/S0010465517300462) are uploaded. 
    2. CKJac can identify various common reactions (such as pressure-dependent reactions with Lindemann, SRI, and Troe forms, and Landau-Teller Formulation reactions).
    3. When you are using this solver to publish paper, please kindly consider to cite following papers:
-[1] Yangyang Ban, Fan Zhang, Naiyuan Zhang, Shenghui Zhong, Jiajian Zhu, Yiqiang Pei, The improved performance of plasma assisted combustion (PAC) simulations using the fully analytical Jacobian, Combustion and Flame, 2024, 270: 113788. https://www.sciencedirect.com/science/article/abs/pii/S0010218024004978 
+
+   [1] Yangyang Ban, Fan Zhang, Naiyuan Zhang, Shenghui Zhong, Jiajian Zhu, Yiqiang Pei, The improved performance of plasma assisted combustion (PAC) simulations using the fully analytical Jacobian, Combustion and Flame, 2024, 270, 113788.
 
 
 :blush:Contributor1: Yangyang Ban, Tianjin University, banyang@tju.edu.cn; 
@@ -52,7 +53,7 @@ libs
 
 <div align=center>
 Fig. 1 The sparsity of CKJac.
-
+<img src="https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2" width='180' height='105' alt='Fig. 1 The sparsity of CKJac.'>
 ![image](https://github.com/user-attachments/assets/3f202ddb-3050-4888-8d06-fc7e96d06ec2)
 
 
