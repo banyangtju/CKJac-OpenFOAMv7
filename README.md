@@ -10,8 +10,9 @@ cd tutorials/chemFoam/CH4Air_GRIMech3.0/constant/chemkin/ckinterp/
 make clean;make
 ./ckinterp
 cp -r ./chem.bin ../
-./JAC/
+./JAC
 ```
+   Finally, the library libchemkin.so can be produced.
    
    The advantages of CKJac can be found in Fig. 1 and Fig. 2. After installing the library **libchemistryModel_LB_LB_pyJac_LB_CKJac.so** and **libchemkin.so**, you can use it in constant/chemistryProperties,
 
